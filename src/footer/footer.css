@@ -1,0 +1,24 @@
+.git
+{
+    border-radius: 45px;
+}
+
+.footer
+{
+    margin-top:10vh;
+    display:flex;
+    justify-content: center;
+}
+
+.footer a
+{
+    margin:2vw;
+    padding:3px;
+    transition: bottom 2s;
+}
+
+.footer a:hover
+{
+    transform:scaleZ(0.1);
+    border-bottom: 2px solid #FFEF00;
+}

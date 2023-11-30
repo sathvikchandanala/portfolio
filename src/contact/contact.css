@@ -1,0 +1,55 @@
+.contact
+{
+    margin-top:20vh;
+}
+
+.contactme
+{
+    padding:50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 90rem;
+}
+
+.name,.email
+{
+    background:rgb(40,40,40);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 40rem;
+    border: none;
+    color:white;
+    padding:5px;
+}
+
+.msg
+{
+    background: rgb(40,40,40);
+    color:white;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 40rem;
+}
+
+.btn
+{
+    background-color:white;
+    color:black;
+    padding:5px 10px;
+    border-radius: 5px;
+    font-weight:bolder;
+
+    transition: background-color 1s;
+}
+
+.btn:hover
+{
+    background-color:#FFEF00;
+}
+
+input,textarea,button
+{
+    margin-top:5vh;
+}

@@ -1,0 +1,358 @@
+.port
+{
+    margin-top:15vh;
+}
+
+.projects
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.p1,.p2,.p3,.p4,.p5
+{
+    width:20vw;
+}
+
+.up
+{
+    background-color:white;
+    border-radius: 15px;
+    text-align: center;
+    height:15vh;
+    transform: background-color 1s;
+}
+
+.up h3
+{
+    padding:10px 10px;
+}
+
+.inner
+{
+    background-color:white;
+    border-radius: 0px 0px 15px 15px;
+    margin:0px;
+    height: 12vh;
+    text-align: center;
+    height:0px;
+    transition: height 1s;
+}
+
+.inner p{
+    font-size:small;
+    color:white;
+    padding:4px;
+    transition: color 1s;
+    overflow: hidden;
+}
+
+.up h3
+{
+    color:black;
+}
+
+.p1,.p2,.p3,.p4,.p5
+{
+    justify-content: center;
+    margin:3vw;
+}
+
+@media screen and (max-width:540px)
+{
+    .p1,.p2,.p3,.p4,.p5
+    {
+        width:40vw;
+        margin-top:10vh;
+    }
+
+    .up
+    {
+        height:5vh;
+    }
+
+    .up:hover
+    {
+        background-color: #FFEF00;
+        .up
+        {
+            color:#FFEF00;
+        }
+
+        .inner
+        {
+            height:3vh;
+        }
+
+        .inner p
+        {
+            color:black;
+        }
+    }
+}
+
+@media screen and (max-width:400px)
+{
+    .up:hover
+    {
+        background-color: #FFEF00;
+        
+        .up
+        {
+            color:#FFEF00;
+        }
+
+        .inner
+        {
+            height:1vh;
+        }
+
+        .inner p
+        {
+            color:black;
+        }
+    }
+
+    .up
+    {
+        height:5vh;
+    }
+
+    .up h3
+    {
+        font-size: 3vw;
+    }
+
+    .inner p
+    {
+        font-size: 2.25vw;
+    };
+}
+
+
+@media screen and (max-width:1024px)
+{
+
+
+    .up
+    {
+        height:21vh;
+    }
+
+    .inner
+    {
+        height:4vh;
+    }
+
+    .up:hover
+    {
+        background-color: #FFEF00;
+        .up
+        {
+            color:#FFEF00;
+        }
+
+        .inner
+        {
+            height:5vh;
+        }
+
+        .inner p
+        {
+            color:black;
+        }
+    }
+}
+
+@media screen and (max-width:914px)
+{
+
+    .p1,.p2,.p3,.p4,.p5
+    {
+        width:40vw;
+        margin-top:10vh;
+    }
+
+    .up
+    {
+        height:12.5vh;
+    }
+
+    .inner
+    {
+        height:1vh;
+    }
+
+    .up:hover
+    {
+        background-color: #FFEF00;
+        .up
+        {
+            color:#FFEF00;
+        }
+
+        .inner
+        {
+            height:1vh;
+        }
+
+        .inner p
+        {
+            color:black;
+        }
+    }
+}
+
+@media screen and (max-width:541px)
+{
+    .up:hover
+    {
+        background-color: #FFEF00;
+        
+        .up
+        {
+            color:#FFEF00;
+        }
+
+        .inner
+        {
+            height:1vh;
+        }
+
+        .inner p
+        {
+            color:black;
+        }
+    }
+
+    .up
+    {
+        height:15vh;
+    }
+
+    .up h3
+    {
+        font-size: 3vw;
+    }
+
+    .inner p
+    {
+        font-size: 2.25vw;
+    };
+}
+
+@media screen and (max-width:431px)
+{
+    .up
+    {
+        height:14vh;
+    }
+
+    .inner
+    {
+        height:4vh;
+    }
+
+    .up:hover
+    {
+        background-color: #FFEF00;
+        .up
+        {
+            color:#FFEF00;
+        }
+
+        .inner
+        {
+            height:7vh;
+        }
+
+        .inner p
+        {
+            color:black;
+        }
+    }
+}
+
+@media screen and (max-width:415px)
+{
+    .up
+    {
+        height:14vh;
+    }
+
+    .inner
+    {
+        height:4vh;
+    }
+
+    .up:hover
+    {
+        background-color: #FFEF00;
+        .up
+        {
+            color:#FFEF00;
+        }
+
+        .inner
+        {
+            height:7vh;
+        }
+
+        .inner p
+        {
+            color:black;
+        }
+    }
+}
+
+@media screen and (max-width:412px)
+{
+    .up
+    {
+        height:15vh;
+    }
+
+    .inner
+    {
+        height:4vh;
+    }
+
+    .up:hover
+    {
+        background-color: #FFEF00;
+        .up
+        {
+            color:#FFEF00;
+        }
+
+        .inner
+        {
+            height:7vh;
+        }
+
+        .inner p
+        {
+            color:black;
+        }
+    }
+}
+
+.up:hover
+{
+    background-color: #FFEF00;
+    .up
+    {
+        color:#FFEF00;
+    }
+
+    .inner
+    {
+        height:10vh;
+    }
+
+    .inner p
+    {
+        color:black;
+    }
+}
